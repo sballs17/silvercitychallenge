@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A Cool Form</title>
+    <style>
+        h1 {
+            color:darkred;
+            text-align: center;
+}
+        h4 {
+            color: darkred;
+            text-align: center;
+        }
+        img {
+            width: 100%;
+}
+        html, body, h1, form {
+            margin: 0;
+            padding: 1px;
+}
+        body {
+            background: #ccc;
+            color: black;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            padding: 20px;
+}
+        .tag {
+            padding-top: 15px;
+        }
+        .zipcode {
+            margin-top: 10px;
+        }
+        .visit {
+            margin-bottom: 0px;
+        }
+        .addcomments {
+            padding-top: 15px;
+        }
+        #email {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            border-radius: 4px;
+            border: none;
+            margin-left: 20px;
+            margin-bottom: 10px;
+        }
+        .email {
+            margin-top: 10px;
+        }
+        }
+        #thesubmit {
+            margin-top: 10px;
+        }
+        input[type=submit] {
+            width: 100%;
+            background-color: white;
+            color: black;
+            font-size: 14px;
+            padding: 10px 20px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        } 
+        input[type=submit]:hover {
+            background-color: #555;
+            color: white;
+}
+        #radio-1-1 {
+            margin-left: 20px;
+        }
+        #radio-1-2 {
+            margin-left: 20px;
+        }
+        #radio-1-3 {
+            margin-left: 20px;
+        }
+        #radio-1-4 {
+            margin-left: 20px;
+        }
+        #radio-1-5 {
+            margin-left: 20px;
+        }
+        #checkbox-1-1 {
+            margin-left: 20px;
+        }
+         #checkbox-1-2 {
+            margin-left: 20px;
+        }
+         #checkbox-1-3 {
+            margin-left: 20px;
+        }
+         #checkbox-1-4 {
+            margin-left: 20px;
+        }
+         #checkbox-1-5 {
+            margin-left: 20px;
+        }
+         #checkbox-1-6 {
+            margin-left: 20px;
+        }
+         #checkbox-1-7 {
+            margin-left: 20px;
+        }
+         #checkbox-1-8 {
+            margin-left: 20px;
+        }
+         #checkbox-1-9 {
+            margin-left: 20px;
+        }
+        #addcomments {
+            margin-left: 20px;
+            border-radius: 4px;
+            border: none;
+        }
+        #comments {
+            margin-left: 0px;
+            border-radius: 4px;
+            border: none;
+        }
+        .ribbon {
+            font-size: 16px !important;
+            width: 50%;
+            position: relative;
+            background: darkred;
+            color: white;
+            text-align: center;
+            padding: 5px 7px;
+            margin: 2px auto 3px;
+        }
+        .ribbon:before, .ribbon:after {
+            content: "";
+            position: absolute;
+            display: block;
+            bottom: -1em;
+            border: 1.5em solid darkred;
+            z-index: -1;
+        }
+        .ribbon:before {
+            left: -2em;
+            border-right-width: 1.5em;
+            border-left-color: transparent;
+        }
+        .ribbon:after {
+            right: -2em;
+            border-left-width: 1.5em;
+            border-right-color: transparent;
+        }
+        .ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+            content: "";
+            position: absolute;
+            display: block;
+            border-style: solid;
+            border-color: black transparent transparent transparent;
+            bottom: -1em;
+        }
+        .ribbon .ribbon-content:before {
+            left: 0;
+            border-width: 1em 0 0 1em;
+        }
+        .ribbon .ribbon-content:after {
+            right: 0;
+            border-width: 1em 1em 0 0;
+        }
+</style>
+</head>
+<body>
+    <form name="formtest" method="post" action="https://elearn.usu.edu/courses/itls-5265/forms/form_results.php">
+        <!-- Put your form code here. -->
+            <div class="header">
+            <a href='https://photos.google.com/share/AF1QipNBguvPmQzk2DB-cxjYzd-1Y0GwCJUgdBZH-A5L9H0FnY8HuWernhK-L6XCFORnpg?key=bnhHODYwVW9Wcko3cEFyUXVtSHhxNkJCTkRXQmdn&source=ctrlq.org'><img src='https://lh3.googleusercontent.com/-kZj4Cjswy40WN1DBwN4A1ConCRXVnIdyqsBvLoEYoWwSrwwFxFwnoJ3jNGW20g8w1t23JC0nPYVrgm62GI8Hb7-MCun5s6Lzyf_UN4HqGaIrlxpcDIU-6TSqGSrWf_QVaJLhiUf=w2400' alt="Steam train"/></a>
+            <h1> Silver City Revitalization Input</h1>
+                <fieldset>
+            <legend>Introduction</legend>
+                Alliance would like to capture your input regarding the revitalization of the down town area of Silver City. Please answer the following questions to help us make Silver City better for you. If you have any questions or have further comments please leave your name and contact information at the end of this form and we will get back to you as soon as possible. Thank you! 
+                </fieldset>
+            </div>
+            <div>
+            <div class="tag">1. What is your <b>primary</b> reason for visiting Silver City? Is it:</div>
+            <div class="button-holder">
+            <input type="radio" id="radio-1-1" name="radio-1-set" class="regular-radio" checked /> <label for="radio-1-1"> I am a resident of Silver City</label> <br>
+            <input type="radio" id="radio-1-2" name="radio-1-set" class="regular-radio" /><label for="radio-1-2"> I work in Silver City</label> <br>
+            <input type="radio" id="radio-1-3" name="radio-1-set" class="regular-radio" />
+            <label for="radio-1-3"> I visit Silver City to shop or visit businesses</label> <br>
+            <input type="radio" id="radio-1-4" name="radio-1-set" class="regular-radio" />
+            <label for="radio-1-4"> Tourist-Vacation</label><br>
+            <input type="radio" id="radio-1-5" name="radio-1-set" class="regular-radio" /><label for="radio-1-5"> Other</label><br>
+            </div>
+        </div>
+        <div>
+            <div class="zipcode">2. Please type in what <b>zipcode</b> you're from:
+            <input type= "text" style="color:darkred; background-color: white; border:none; border-radius:4px;" name="zipcode" maxlength="5" placeholder="i.e. 56482" required> </div><br>
+        </div>
+            <div class="visit"></div>3. How often do you visit Silver City?
+            <select>
+            <option value="live">I live here</option><br>
+            <option value="week">Several times a week</option><br>
+            <option value="month">Several times a month</option><br>
+            <option value="year">Several times a year</option><br>
+            <option value="once">Once a year or less</option><br>
+            <option value="never">I never visit Silver City</option><br>
+        </select>
+        <div> 
+            <div class="tag">4. What would make down town Silver City more attractive for you to visit? (check all that apply)</div>
+            <input type="checkbox" id="checkbox-1-1" class="regular-checkbox"/><label for="checkbox-1-1"> More restaurants</label><br>
+            <input type="checkbox" id="checkbox-1-2" class="regular-checkbox"/><label for="checkbox-1-2"> More specialty stores</label><br>
+            <input type="checkbox" id="checkbox-1-3" class="regular-checkbox"/><label for="checkbox-1-3"> More tourist type shops</label><br>
+            <input type="checkbox" id="checkbox-1-4" class="regular-checkbox"/>
+            <label for="checkbox-1-4"> More professional businesses</label><br>
+            <input type="checkbox" id="checkbox-1-5" class="regular-checkbox"/>
+            <label for="checkbox-1-5"> Additional parking</label><br>
+            <input type="checkbox" id="checkbox-1-6" class="regular-checkbox"/>
+            <label for="checkbox-1-6">A bus route from nearby hotels or popular tourist spots</label><br>
+            <input type="checkbox" id="checkbox-1-7" class="regular-checkbox"/>
+            <label for="checkbox-1-7">Give the place a face lift</label><br>
+            <input type="checkbox" id="checkbox-1-8" class="regular-checkbox"/>
+            <label for="checkbox-1-8">Concerts and events held down town</label><br>
+            <input type="checkbox" id="checkbox-1-9" class="regular-checkbox"/>
+            <label for="checkbox-1-9">Less tourists, and more places for locals</label><br>
+        </div> 
+        <div>
+            <div class="addcomments">5. What additional comments or suggestions do you have?<br>
+            <textarea name= "addcomments" id="addcomments" rows="6" cols="50" style="color:darkred; background-color:white">
+            </textarea>
+            </div>
+        </div>
+        <div>
+            <div class="email">6. Please enter your email address if you'd like to receive occasional information on what is happening in down town Silver City.
+            <br>
+            <textarea name= "email" id="email" rows="1" cols="25" style="color:darkred">
+            </textarea>
+            </div>
+        </div>
+        
+        <fieldset>
+            <legend>Contact Us</legend>
+        <div>
+            <label for= "myName"> Name:
+            </label>
+            <input type= "text" name= "myName" id="myName" style="color:darkred">
+        </div>
+        <div>
+            <label for="email2"> Email:
+            </label>
+            <input type="email" name="email2" id="email2" style="color:darkred">
+        </div>
+        <div>
+            <label for="comments"> Comments: 
+            </label><br>
+            <textarea name= "comments" id="comments" rows="5" cols="60" style="color:darkred">
+            </textarea>
+        </div>
+        </fieldset>
+        <div id="thesubmit">
+            <input type="submit" value= " Submit Now ">
+            </div><br>
+    </form>
+    <h4 class="ribbon">
+   <strong class="ribbon-content">Thank you for your time!</strong>
+    </h4>
+</body>
+</html>
